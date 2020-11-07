@@ -17,3 +17,4 @@ GET to http://localhost:8100/currency-converter/from/EUR/to/INR/quantity/10000
 }
 
 It is registered with Eureka. eureka.client.service-url.default-zone=http://localhost:8761/eureka
+Circuit Breaker(Hystric) is also enabled in it.
